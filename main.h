@@ -22,12 +22,12 @@ int pr_string(va_list);
 int pr_char(va_list);
 int pr_integer(va_list);
 int pr_binary(va_list);
-/*int pr_rot(va_list);
+/*int pr_rot(va_list);*/
 int pr_unsigned(va_list);
 int pr_octal(va_list);
-int pr_hexadecimal_low(va_list);
-int pr_hexadecimal_upp(va_list);
-int pr_pointer(va_list);
+int pr_hexl(va_list);
+int pr_hexh(va_list);
+/*int pr_pointer(va_list);
 int pr_rev_string(va_list);
 */
 /* _putchar.c */

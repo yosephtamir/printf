@@ -45,7 +45,9 @@ int per_flags(const char *str, va_list list, int *i)
 	format ops[] = {
 		{'s', pr_string}, {'c', pr_char},
 		{'d', pr_integer}, {'i', pr_integer},
-		{'b', pr_binary}
+		{'b', pr_binary}, {'u', pr_unsigned},
+		{'o', pr_octal}, {'x', pr_hexl},
+		{'X', pr_hexh}
 	};
 
 	*i = *i + 1;
