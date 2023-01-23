@@ -27,8 +27,8 @@ int pr_unsigned(va_list);
 int pr_octal(va_list);
 int pr_hexl(va_list);
 int pr_hexh(va_list);
-/*int pr_pointer(va_list);
-int pr_rev_string(va_list);
+int pr_pointer(va_list);
+/*int pr_rev_string(va_list);
 */
 /* _putchar.c */
 int _putchar(char);
